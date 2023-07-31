@@ -1,0 +1,56 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_container__aoG4z{
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    z-index: 3;
+}
+
+.page_item__z7Kdy{
+    /* flex: 0.8; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    z-index: 3;
+}
+.page_title__3jonF{
+
+    font-size: 72px;
+	background: linear-gradient(to right, #30CFD0 0%, #8d48e0 100%);
+    opacity: 2;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+z-index: 3;
+}
+
+.page_img__434ND{
+    /* border: 14px solid green; */
+    /* mix-blend-mode:color-burn; */
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    z-index: 3;
+
+
+}
+.page_desc__5JXkv{
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 3;
+
+}
+.page_button__vnlhW{
+    padding: 20px;
+    cursor: pointer;    
+    background-color: #148d93;
+    border: none;
+    border-radius: 7px;
+    width: max-content;
+    color: white;
+    z-index: 3;
+}
