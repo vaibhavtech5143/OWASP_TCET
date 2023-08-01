@@ -16,7 +16,7 @@ html,body{
 	height: 100vh;
   color: white;
   font-family: 'Roboto', sans-serif;
-  cursor: none; 
+  /* cursor: none;  */
 }
 .cursor-dot,
 .cursor-dot-outline {
