@@ -28,29 +28,37 @@ z-index: 3;
 }
 
 .page_img__434ND{
-    /* border: 14px solid green; */
+    border: 14px solid #30CFD0;
     /* mix-blend-mode:color-burn; */
+    /* linear-gradient(to right, #30CFD0 0%, #8d48e0 100%); */
     border-radius: 50%;
     width: 400px;
     height: auto;
     object-fit: cover;
     z-index: 3;
+    /* cursor: pointer; */
 
 
 }
 .page_desc__5JXkv{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 500;
     z-index: 3;
 
 }
-.page_button__vnlhW{
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/button/button.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.button_button__5pd1Q{
     padding: 20px;
     cursor: pointer;    
     background-color: #148d93;
     border: none;
     border-radius: 7px;
     width: max-content;
-    color: white;
-    z-index: 3;
+    color: hsl(0, 0%, 100%);
+    z-index: 5;
+   
+
 }

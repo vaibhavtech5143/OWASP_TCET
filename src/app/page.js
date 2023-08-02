@@ -3,16 +3,17 @@ import styles from './page.module.css'
 import Hero from '../../public/OWASP-modified.png'
 import Image from 'next/image'
 import bg from "../../public/cool-background.svg"
+import Button from './components/button/Button'
 
 export default function Home() {
   return (
 <div className={styles.container}>
 
 <div className={styles.item}>
-<Image src={bg} fill style={{zIndex:1,opacity:"0.4"}}/>
+<Image src={bg} fill style={{zIndex: -1,opacity:"0.4"}}/>
   <h1 className={styles.title}>Welcome TO Owasp Tcet Official Page</h1>
   <p className={styles.desc}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet </p>
-  <button className={styles.button}>See Our Works</button>
+ <Button url={"/pastevents"} text={"See Our Works"} ></Button>
 </div>
 <div className={styles.item}></div>
     <Image src={Hero} className={styles.img}/>

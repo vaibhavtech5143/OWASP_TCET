@@ -1,0 +1,12 @@
+.button{
+    padding: 20px;
+    cursor: pointer;    
+    background-color: #148d93;
+    border: none;
+    border-radius: 7px;
+    width: max-content;
+    color: hsl(0, 0%, 100%);
+    z-index: 5;
+   
+
+}

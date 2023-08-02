@@ -1,4 +1,4 @@
-// File: /home/vaibhav/Desktop/OWASP_TCET/OWASP_TCET/src/app/about/page.js
+// File: C:\Users\vaibh\OneDrive\Desktop\OWASP_TCET\src\app\about\page.js
 import * as entry from '../../../../src/app/about/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

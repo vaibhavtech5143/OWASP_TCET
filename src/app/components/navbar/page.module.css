@@ -1,21 +1,40 @@
 .container{
-    height: 100px;
+    margin-top: 20px;
+    padding: 0 78px;
+    height: 75px;
     display: flex;
+    opacity: 0.8;
     justify-content: space-between;
     align-items: center;
     z-index: 4;
+    color: aliceblue;
+    /* background-color: #ceeff1; */
+    border-radius: 18px;
 }
 .logo{
 
     font-weight: bold;
     font-size: 22px;
+    color: black;
     z-index: 4;
+}
+
+
+.logoImg{
+    height: 65px;
+    width: 65px;
+    object-fit: contain;
+    filter:contrast()
 }
 .links{
     display: flex;
     align-items: center;
     gap: 22px;
     z-index: 4;
+ 
+    color: aliceblue;
+    /* font-size: 1.2em; */
+
 }
 
 .logout{
